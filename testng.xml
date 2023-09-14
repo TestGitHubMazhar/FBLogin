@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" parallel="methods" name="chromeTestParallel">
+		<parameter name="browser" value="chrome" />
+		<classes>
+
+			<class name="com.Flipkart.TestCases.ParallelTCLogin_001" />
+		
+
+		</classes>
+		
+	</test>
+	<test  name="crossBrowser1">
+		<parameter name="browser" value="fireFox" />
+		<classes>
+
+			<class name="com.Flipkart.TestCases.FacebookLogin_001" >
+			
+				</class>
+		
+
+		</classes>
+		
+	</test>
+	<test  name="crossBrowser2">
+		<parameter name="browser" value="fireFox" />
+		<classes>
+
+			<class name="com.Flipkart.TestCases.FacebookLogin_001" >
+			
+				</class>
+		
+
+		</classes>
+		
+	</test>
+	<!--
+	Test -->
+</suite> <!--
+Suite -->
