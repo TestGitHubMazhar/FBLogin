@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="70.35" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="428.065" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\M\eclipse-workspace\Flipkart\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11136692697201701676.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\M\eclipse-workspace\Flipkart\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf12729467002133857686.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files\apache-maven-3.9.1\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\M\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;C:\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -57,11 +57,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
-    <property name="m2e.build.project.data.socket.port" value="51273"/>
+    <property name="m2e.build.project.data.socket.port" value="61747"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="chromeBrowser" classname="com.Flipkart.TestCases.ParallelTCLogin_001" time="16.157"/>
-  <testcase name="fireFoxDriver" classname="com.Flipkart.TestCases.ParallelTCLogin_001" time="43.357"/>
-  <testcase name="browserOpen" classname="com.Flipkart.TestCases.FacebookLogin_001" time="10.836"/>
-  <testcase name="browserOpen" classname="com.Flipkart.TestCases.FacebookLogin_001" time="11.118"/>
+  <testcase name="fireFoxDriver" classname="com.FBLogin.TestCases.ParallelTCLogin_001" time="151.347"/>
+  <testcase name="chromeBrowser" classname="com.FBLogin.TestCases.ParallelTCLogin_001" time="151.35"/>
+  <testcase name="browserOpen" classname="com.FBLogin.TestCases.FacebookLogin_001" time="64.826"/>
+  <testcase name="browserOpen" classname="com.FBLogin.TestCases.FacebookLogin_001" time="7.649"/>
+  <testcase name="chromeBrowser" classname="com.FBLogin.TestCases.CrossBrowserFBTCLogin_001" time="13.715"/>
+  <testcase name="fireFox" classname="com.FBLogin.TestCases.CrossBrowserFBTCLogin_001" time="46.827"/>
 </testsuite>

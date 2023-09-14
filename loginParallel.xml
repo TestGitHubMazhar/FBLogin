@@ -3,7 +3,7 @@
 <suite parallel="methods" name="Suite">
   <test thread-count="5" parallel="methods" name="Test">
     <classes>
-      <class name="com.Flipkart.TestCases.ParallelTCLogin_001"/>
+      <class name="com.FBLogin.TestCases.ParallelTCLogin_001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

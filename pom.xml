@@ -25,6 +25,7 @@
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>FBCrossBrowserLogin.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

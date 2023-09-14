@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T20:12:13 IST" name="Suite" finished-at="2023-09-14T20:14:15 IST" duration-ms="121675">
+  <suite started-at="2023-09-14T23:22:09 IST" name="Suite" finished-at="2023-09-14T23:26:33 IST" duration-ms="264088">
     <groups>
     </groups>
-    <test started-at="2023-09-14T20:12:13 IST" name="chromeTestParallel" finished-at="2023-09-14T20:12:56 IST" duration-ms="43455">
-      <class name="com.Flipkart.TestCases.ParallelTCLogin_001">
-        <test-method signature="fireFoxDriver()[pri:0, instance:com.Flipkart.TestCases.ParallelTCLogin_001@7b02881e]" started-at="2023-09-14T20:12:13 IST" name="fireFoxDriver" finished-at="2023-09-14T20:12:56 IST" duration-ms="43362" status="PASS">
+    <test started-at="2023-09-14T23:22:09 IST" name="chromeTestParallel" finished-at="2023-09-14T23:24:41 IST" duration-ms="151487">
+      <class name="com.FBLogin.TestCases.ParallelTCLogin_001">
+        <test-method signature="fireFoxDriver()[pri:0, instance:com.FBLogin.TestCases.ParallelTCLogin_001@3c0be339]" started-at="2023-09-14T23:22:09 IST" name="fireFoxDriver" finished-at="2023-09-14T23:24:41 IST" duration-ms="151350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fireFoxDriver -->
-        <test-method signature="chromeBrowser()[pri:0, instance:com.Flipkart.TestCases.ParallelTCLogin_001@7b02881e]" started-at="2023-09-14T20:12:13 IST" name="chromeBrowser" finished-at="2023-09-14T20:12:29 IST" duration-ms="16155" status="PASS">
+        <test-method signature="chromeBrowser()[pri:0, instance:com.FBLogin.TestCases.ParallelTCLogin_001@3c0be339]" started-at="2023-09-14T23:22:09 IST" name="chromeBrowser" finished-at="2023-09-14T23:24:41 IST" duration-ms="151346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowser -->
-      </class> <!-- com.Flipkart.TestCases.ParallelTCLogin_001 -->
+      </class> <!-- com.FBLogin.TestCases.ParallelTCLogin_001 -->
     </test> <!-- chromeTestParallel -->
-    <test started-at="2023-09-14T20:12:57 IST" name="crossBrowser1" finished-at="2023-09-14T20:13:40 IST" duration-ms="43178">
-      <class name="com.Flipkart.TestCases.FacebookLogin_001">
-        <test-method is-config="true" signature="openBro(java.lang.String)[pri:0, instance:com.Flipkart.TestCases.FacebookLogin_001@19d481b]" started-at="2023-09-14T20:12:58 IST" name="openBro" finished-at="2023-09-14T20:13:22 IST" duration-ms="23415" status="PASS">
+    <test started-at="2023-09-14T23:24:41 IST" name="crossBrowser1" finished-at="2023-09-14T23:26:09 IST" duration-ms="87854">
+      <class name="com.FBLogin.TestCases.FacebookLogin_001">
+        <test-method is-config="true" signature="openBro(java.lang.String)[pri:0, instance:com.FBLogin.TestCases.FacebookLogin_001@140c9f39]" started-at="2023-09-14T23:24:43 IST" name="openBro" finished-at="2023-09-14T23:24:58 IST" duration-ms="15496" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBro -->
-        <test-method signature="browserOpen(java.lang.String,java.lang.String)[pri:0, instance:com.Flipkart.TestCases.FacebookLogin_001@19d481b]" started-at="2023-09-14T20:13:22 IST" name="browserOpen" data-provider="login" finished-at="2023-09-14T20:13:32 IST" duration-ms="10836" status="PASS">
+        <test-method signature="browserOpen(java.lang.String,java.lang.String)[pri:0, instance:com.FBLogin.TestCases.FacebookLogin_001@140c9f39]" started-at="2023-09-14T23:24:58 IST" name="browserOpen" data-provider="login" finished-at="2023-09-14T23:26:03 IST" duration-ms="64826" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method is-config="true" signature="closeBr()[pri:0, instance:com.Flipkart.TestCases.FacebookLogin_001@19d481b]" started-at="2023-09-14T20:13:32 IST" name="closeBr" finished-at="2023-09-14T20:13:40 IST" duration-ms="7310" status="PASS">
+        <test-method is-config="true" signature="closeBr()[pri:0, instance:com.FBLogin.TestCases.FacebookLogin_001@140c9f39]" started-at="2023-09-14T23:26:03 IST" name="closeBr" finished-at="2023-09-14T23:26:09 IST" duration-ms="5559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBr -->
-      </class> <!-- com.Flipkart.TestCases.FacebookLogin_001 -->
+      </class> <!-- com.FBLogin.TestCases.FacebookLogin_001 -->
     </test> <!-- crossBrowser1 -->
-    <test started-at="2023-09-14T20:13:40 IST" name="crossBrowser2" finished-at="2023-09-14T20:14:15 IST" duration-ms="34852">
-      <class name="com.Flipkart.TestCases.FacebookLogin_001">
-        <test-method is-config="true" signature="openBro(java.lang.String)[pri:0, instance:com.Flipkart.TestCases.FacebookLogin_001@59af0466]" started-at="2023-09-14T20:13:40 IST" name="openBro" finished-at="2023-09-14T20:13:56 IST" duration-ms="16145" status="PASS">
+    <test started-at="2023-09-14T23:26:09 IST" name="crossBrowser2" finished-at="2023-09-14T23:26:33 IST" duration-ms="24561">
+      <class name="com.FBLogin.TestCases.FacebookLogin_001">
+        <test-method is-config="true" signature="openBro(java.lang.String)[pri:0, instance:com.FBLogin.TestCases.FacebookLogin_001@346d61be]" started-at="2023-09-14T23:26:09 IST" name="openBro" finished-at="2023-09-14T23:26:23 IST" duration-ms="14679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBro -->
-        <test-method signature="browserOpen(java.lang.String,java.lang.String)[pri:0, instance:com.Flipkart.TestCases.FacebookLogin_001@59af0466]" started-at="2023-09-14T20:13:56 IST" name="browserOpen" data-provider="login" finished-at="2023-09-14T20:14:07 IST" duration-ms="11116" status="PASS">
+        <test-method signature="browserOpen(java.lang.String,java.lang.String)[pri:0, instance:com.FBLogin.TestCases.FacebookLogin_001@346d61be]" started-at="2023-09-14T23:26:23 IST" name="browserOpen" data-provider="login" finished-at="2023-09-14T23:26:31 IST" duration-ms="7640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method is-config="true" signature="closeBr()[pri:0, instance:com.Flipkart.TestCases.FacebookLogin_001@59af0466]" started-at="2023-09-14T20:14:07 IST" name="closeBr" finished-at="2023-09-14T20:14:15 IST" duration-ms="7498" status="PASS">
+        <test-method is-config="true" signature="closeBr()[pri:0, instance:com.FBLogin.TestCases.FacebookLogin_001@346d61be]" started-at="2023-09-14T23:26:31 IST" name="closeBr" finished-at="2023-09-14T23:26:33 IST" duration-ms="2129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBr -->
-      </class> <!-- com.Flipkart.TestCases.FacebookLogin_001 -->
+      </class> <!-- com.FBLogin.TestCases.FacebookLogin_001 -->
     </test> <!-- crossBrowser2 -->
   </suite> <!-- Suite -->
+  <suite started-at="2023-09-14T23:26:33 IST" name="Suite (0)" finished-at="2023-09-14T23:27:34 IST" duration-ms="60543">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T23:26:33 IST" name="Test1" finished-at="2023-09-14T23:27:34 IST" duration-ms="60543">
+      <class name="com.FBLogin.TestCases.CrossBrowserFBTCLogin_001">
+        <test-method signature="chromeBrowser()[pri:0, instance:com.FBLogin.TestCases.CrossBrowserFBTCLogin_001@e7edb54]" started-at="2023-09-14T23:26:33 IST" name="chromeBrowser" finished-at="2023-09-14T23:26:47 IST" duration-ms="13713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeBrowser -->
+        <test-method signature="fireFox()[pri:0, instance:com.FBLogin.TestCases.CrossBrowserFBTCLogin_001@e7edb54]" started-at="2023-09-14T23:26:47 IST" name="fireFox" finished-at="2023-09-14T23:27:34 IST" duration-ms="46827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFox -->
+      </class> <!-- com.FBLogin.TestCases.CrossBrowserFBTCLogin_001 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite (0) -->
 </testng-results>

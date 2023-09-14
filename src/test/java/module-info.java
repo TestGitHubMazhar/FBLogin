@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author M
- *
- */
-module Login {
-}
