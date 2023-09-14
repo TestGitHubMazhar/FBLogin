@@ -1,4 +1,4 @@
-package com.Flipkart.TestCases;
+package com.FBLogin.TestCases;
 
 import java.io.IOException;
 import java.time.Duration;
