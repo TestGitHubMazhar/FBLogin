@@ -61,7 +61,7 @@ public class FacebookLogin_001 {
 		
 	}
 
-	@Test(dataProvider = "login", dataProviderClass = XLUtility.class)
+	@Test(dataProvider = "login", dataProviderClass = XLUtility.class,priority=1)
 	public void browserOpen(String email, String pass) throws InterruptedException, IOException {
 
 		PageObjectModel p = new PageObjectModel(driver);
@@ -79,7 +79,14 @@ public class FacebookLogin_001 {
 			System.out.println("Login fail...");
 		}
 		s.takeScreenshot(driver, "validUserNameAndInvalidPass");
+		driver.findElement(By.xpath("(//input[@type=\"search\"])[1]")).sendKeys("mazhar");
+		Thread.sleep(10000);
 
+	}
+	
+	public void searchFB() throws InterruptedException
+	{
+	
 	}
 
 	@AfterMethod

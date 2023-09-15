@@ -12,18 +12,6 @@
 		
 	</test>
 	<test  name="crossBrowser1">
-		<parameter name="browser" value="fireFox" />
-		<classes>
-
-			<class name="com.FBLogin.TestCases.FacebookLogin_001" >
-			
-				</class>
-		
-
-		</classes>
-		
-	</test>
-	<test  name="crossBrowser2">
 		<parameter name="browser" value="chrome" />
 		<classes>
 
@@ -35,6 +23,7 @@
 		</classes>
 		
 	</test>
+	
 	<!--
 	Test -->
 </suite> <!--
