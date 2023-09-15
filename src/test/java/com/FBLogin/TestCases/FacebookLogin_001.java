@@ -1,4 +1,4 @@
-package com.Flipkart.TestCases;
+package com.FBLogin.TestCases;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -41,6 +41,7 @@ public class FacebookLogin_001 {
 			System.setProperty("webdriver.chrome.driver", Configue.chromeDriver);
 
 			driver = new ChromeDriver();
+	
 		}
 		else if(br.equals("fireFox"))
 		{

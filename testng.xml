@@ -5,7 +5,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 
-			<class name="com.Flipkart.TestCases.ParallelTCLogin_001" />
+			<class name="com.FBLogin.TestCases.ParallelTCLogin_001" />
 		
 
 		</classes>
@@ -15,7 +15,7 @@
 		<parameter name="browser" value="fireFox" />
 		<classes>
 
-			<class name="com.Flipkart.TestCases.FacebookLogin_001" >
+			<class name="com.FBLogin.TestCases.FacebookLogin_001" >
 			
 				</class>
 		
@@ -24,10 +24,10 @@
 		
 	</test>
 	<test  name="crossBrowser2">
-		<parameter name="browser" value="fireFox" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 
-			<class name="com.Flipkart.TestCases.FacebookLogin_001" >
+			<class name="com.FBLogin.TestCases.FacebookLogin_001" >
 			
 				</class>
 		

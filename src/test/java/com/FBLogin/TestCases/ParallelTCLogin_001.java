@@ -1,4 +1,4 @@
-package com.Flipkart.TestCases;
+package com.FBLogin.TestCases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +19,7 @@ public class ParallelTCLogin_001 {
 		driver.get(Configue.url);
 		
 		driver.manage().window().maximize();
-		System.out.println("This is chrome Browser");
+		System.out.println("This is Parallel");
 
 	}
 
@@ -29,7 +29,7 @@ public class ParallelTCLogin_001 {
 		driver = new FirefoxDriver();
 		driver.get(Configue.url);
 		driver.manage().window().maximize();
-		System.out.println("This is FirefixDriver");
+		System.out.println("This is Parallel");
 	}
 
 }
